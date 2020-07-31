@@ -15,11 +15,11 @@ paginate_path: "/blog/page:num/"
 title: SungJae Shin
 subtitle: For My best future  
 
-left_side:
-  background_image: "./assets/images/left-background.jpg"
-  background_color: "#F00"
-  close_button_color: "#F00"
-  text_color: "#F00"
+#left_side:
+#  background_image: "./assets/images/left-background.jpg"
+#  background_color: "#F00"
+#  close_button_color: "#F00"
+#  text_color: "#F00"
 
 footer:
   copyright_text: "&copy; Christian Ezeani"
@@ -43,7 +43,7 @@ menu:
     icon: ""
 
   - text: About Me
-    link: /
+    link: /About_Me
     icon: ""
 
 # Socialmedia Icons
