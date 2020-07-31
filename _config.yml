@@ -1,3 +1,6 @@
+url: "https://SungJaeShin.github.io/"
+baseurl: ""
+
 defaults:
   -
     scope:
