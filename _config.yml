@@ -12,8 +12,8 @@ defaults:
 paginate: 10
 paginate_path: "/blog/page:num/"
 
-title: Christian Ezeani
-subtitle: Full-Stack Developer
+title: SungJae Shin
+subtitle: For My best future  
 
 # left_side:
 #   background_image: "./assets/images/left-background.jpg"
@@ -26,43 +26,31 @@ footer:
 
 # Side Menu Links
 menu:
-  - text: Portfolio
+  - text: Home
     link: /
     icon: ""
 
-  - text: Skills & Offers
-    link: /skills-and-offers
+  - text: SLAM
+    link: /
     icon: ""
 
-  - text: Contact Me
+  - text: Deep Learning 
     link: /contact
     icon: ""
 
-  - text: My Resume
-    link: /resume
+  - text: Paper Survey
+    link: /
     icon: ""
 
-  - text: Blog Posts
-    link: /blog
+  - text: About Me
+    link: /
     icon: ""
 
 # Socialmedia Icons
 social_icons:
-  - name: linkedin
-    link: https://www.linkedin.com/christianezeani
-    icon: fab fa-linkedin
-
   - name: github
-    link: https://github.com/christianezeani
+    link: https://github.com/SungJaeShin
     icon: fab fa-github-square
-
-  - name: facebook
-    link: https://www.facebook.com/christian.ezeani.cyb
-    icon: fab fa-facebook-square
-
-  - name: twitter
-    link: https://www.twitter.com/christianezeani
-    icon: fab fa-twitter
 
 
     
