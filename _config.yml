@@ -38,12 +38,16 @@ menu:
     link: /
     icon: ""
 
+  - text: Experiments
+    link: /
+    icon: ""
+
   - text: Paper Survey
     link: /
     icon: ""
 
   - text: About Me
-    link: /posts
+    link: /About
     icon: ""
 
 # Socialmedia Icons
