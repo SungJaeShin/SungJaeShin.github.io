@@ -18,7 +18,7 @@
 　　　　　　　　　*Advisor : Prof. Hyun Myung*  
 <br>
 
-* __BS__  　　　　　　　 &nbsp;**KyungHee University**　　　　　　　　　　　　　　　　　　&nbsp;2014.02 ~ 2020.02 <br>
+* __BS__  　　　　　　　 &nbsp;**KyungHee University**　　　　　　　　　　　　　　　　　　　2014.02 ~ 2020.02 <br>
 　　　　　　　　　Suwon, Korea, Department of Electronic Engineering <br>
 　　　　　　　　　*Graduate Summa Cum Laude* <br>
 　　　　　　　　　*(First Ranked GPA in the college, GPA&nbsp; 4.192/4.3)* <br>
