@@ -3,7 +3,7 @@
 
 # About Me
 
-SungJae Shin
+## SungJae Shin
 
 E-mail : pootti8@gmail.com
 Tel : +82-10-7456-2282
@@ -13,10 +13,3 @@ Tel : +82-10-7456-2282
 [Education]
 
 [Awards]
-
-
-
-
-
-
-
