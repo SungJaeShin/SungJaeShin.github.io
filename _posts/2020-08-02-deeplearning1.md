@@ -38,7 +38,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 그 결과 최종 집의 가격을 예측하는 결과 y가 나오게 된다.
 
 ## In General 및 정리
-<img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-4.PNG?raw=true" width="500px" height="300px">
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-5.PNG?raw=true" width="70%" height="70%"></center>
  <br>
 
 * Node 1 은 x<sub>1</sub> 과 x<sub>2</sub> 특성에서만 영향을 받는다고 하기보다는 어떤 신경망을 만들고 싶던지, 어떤 계산을 하고 싶던지 4개의 입력을 다 받을 것이다. <br>
