@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Deep Learning 기초] Introduction of Neural Network and Deep Learning
+title: [Deep Learning] Introduction of Neural Network and Deep Learning
 date: 2020-08-02 16:14:53
 ---
 
