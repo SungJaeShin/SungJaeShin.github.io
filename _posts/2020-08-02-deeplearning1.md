@@ -9,8 +9,8 @@ date: 2020-08-02 16:14:53
 ### * Assumption : 집값을 예측할 수 있는 6개의 데이터가 존재한다고 가정, <x, y> = <size, price>
 
 <br>
+<img src="/_imgs/deeplearning/fundamental/1-1.png/" width="450px" height="300px"></img> <br>_
 
-![ex_house](/_imgs/deeplearning/fundamental/1-1.png)
 
 [그림 1]은 집의 크기에 따른 가격을 그래프로 나타낸 그림이다. x축은 집의 크기를 나타내고, y축은 가격을 의미한다. <br>
 
