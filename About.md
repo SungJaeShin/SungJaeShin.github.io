@@ -27,7 +27,7 @@
 　　　　　　　　　*(First Ranked GPA in the college, GPA&nbsp; 4.192/4.3)* <br>
 
 <br>
-### [Awards]
+### [Honors and Awards]
 * 2020.02 　　　　　University President Award : Graduation with Top rank in the college, *Summa Cum Laude*, KyungHee University, Korea <br>
 * 2017.08 　　　　　Second rank in department of electronic engineering (first semester 2017) <br>
 * 2015.02 　　　　　Second rank in department of electronic engineering (second semester 2014) <br>
