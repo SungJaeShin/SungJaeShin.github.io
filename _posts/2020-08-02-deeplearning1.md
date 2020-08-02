@@ -18,7 +18,7 @@ date: 2020-08-02 16:14:53
 
 [그림 1]을 우리는 간단한 Neural Network로 만들 수 있다. [그림 2]와 같이 Single Neural Network로 표현될 수 있다.
 
-![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-2.PNG?raw=true){:center}
+![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-2.PNG?raw=true){: .center}
 
 여기서 Node를 <u>__"Neuron"__</u> 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
 
@@ -50,7 +50,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 # < Supervised Learning with a Neural Network >
 ## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다.
 ### [그림 6] 참고.
-<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-6.PNG?raw=true" width="70%" height="70%"></center>
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-6.PNG?raw=true" width="80%" height="60%"></center>
 
 <br>
 
