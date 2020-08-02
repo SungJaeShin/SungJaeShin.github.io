@@ -4,7 +4,7 @@ title: Chapter 1 - Introduction of Neural Network and Deep Learning
 date: 2020-08-02 16:14:53
 ---
 
-# <What is Neural Network?>
+# < What is Neural Network? >
 ## (Example) House Price Prediction  
 ### * Assumption : 집값을 예측할 수 있는 6개의 데이터가 존재한다고 가정, <x, y> = <size, price>
 
@@ -48,7 +48,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 
 <br>
 
-# <Supervised Learning with a Neural Network>
+# < Supervised Learning with a Neural Network >
 ## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다.
 ### [그림 6] 참고.
 
@@ -56,7 +56,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 
 <br>
 
-# <Why is Deep Learning Taking off?>
+# < Why is Deep Learning Taking off? >
 ## Scale drives deep learning progress
 
 ![progress](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-7.PNG?raw=true)
