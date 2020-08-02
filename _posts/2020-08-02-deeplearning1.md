@@ -64,15 +64,19 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 1. Traditional learning algorithm
   * 데이터를 추가하는 동안 성능이 향상되지만 어느정도 지나면 성능이 정체기에이른다. (__* 방대한 data로 뭘 해야하는지 모르는 것처럼 보인다.__) <br>
 
+
 2. Couple of Observation to perform high level performance
   * 많은 양의 데이터를 이용하기 위해 충분히 큰 신경망이 필요하다. (__* 큰 신경망 = 많은 Hidden Unit이 필요 = 많은 Connection & Parameter가 필요__)
   * Input Data가 아주 많이 필요하다. <br>
 
+
 3. In small training set
   * 알고리즘의 상대적 순위가 잘 정의되어 있지 않다. (__* 특성을 다루는 실력이나 알고리즘의 작은 부분이 성능을 크게 좌우한다.__) <br>
 
+
 4. In large traning set
   * 큰 신경망이 다른 방법을 압도하는 경향을 보이고 있다. <br>
+
 
 5. Transformation of algorithm can improve computation
   * (예를 들면) Sigmoid Function -> ReLU Function 으로 바꾸면 Computation을 향상시킬 수 있다. (__* Gradient Descent를 사용하는 것이 더 삐를 것이다.__) <br>
