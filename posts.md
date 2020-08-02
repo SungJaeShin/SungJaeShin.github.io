@@ -3,7 +3,7 @@
 # Table of Contents
 
 ## [Fundamental Deep Learning]
-### **모든 내용은 *deeplearning.ai Youtube Channel*을 정리한 내용입니다. 자세한 내용은 영상을 참조하세요.**
+### **모든 내용은 deeplearning.ai Youtube Channel의 *Neural Networks and Deep Learning*을 정리한 내용입니다. 자세한 내용은 영상을 참조하세요.**
 
 <br>
 
