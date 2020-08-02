@@ -33,7 +33,7 @@ date: 2020-08-02 16:14:53
 
 !
 
-[그림 4]에서 (Area 2)에 있는 Node들을 __"Hidden Unit"__ 이라고 부르고 이들은 ReLU가 될 수 있고 아니면 다른 비선형 함수가 될 수도 있다. <br>
+[그림 4]에서 (Area 2)에 있는 Node들을 <u>"Hidden Unit"</u> 이라고 부르고 이들은 ReLU가 될 수 있고 아니면 다른 비선형 함수가 될 수도 있다. <br>
 family size, walkability, school quality와 같은 feature들은 Traning Set인 Input X & Output y의 많은 Sample들을 주고 스스로 알아내게 된다. (Prediction!!) <br>
 그 결과 최종 집의 가격을 예측하는 결과 y가 나오게 된다.
 
@@ -46,6 +46,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 
 
 <br>
+
 # <Supervised Learning with a Neural Network>
 ## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다.
 ### [그림 5] 참고.
@@ -53,6 +54,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 !
 
 <br>
+
 # <Why is Deep Learning Taking off>
 ## Scale drives deep learning progress
 
