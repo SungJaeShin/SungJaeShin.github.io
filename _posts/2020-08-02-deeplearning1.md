@@ -20,12 +20,12 @@ date: 2020-08-02 16:14:53
 
 ![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-2.PNG?raw=true)
 
-여기서 Node를 ___"Neuron"___ 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
+여기서 Node를 __<u>"Neuron"</u>__ 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
 
 
 * 참고 : Function들 중에서 다음과 같은 __"ReLU(=Rectified Linear Unit)"__ 함수를 많이 볼 수 있다. 여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
 
-![ReLU](/imgs/deeplearning/fundamental/1-3.png?raw=true)
+![ReLU](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-3.PNG?raw=true)
 
 사실 집값을 예측하는데에 있어 여러 가지 특징(features)들이 존재한다. <br>
 * Input X &nbsp; : size -> size, number of bedrooms, zip code(posted code), wealth <br>
@@ -38,7 +38,8 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 그 결과 최종 집의 가격을 예측하는 결과 y가 나오게 된다.
 
 ## In General 및 정리
-![general_nn](./imgs/deeplearning/fundamental/1-5.png)
+<img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-4.PNG?raw=true" width="500px" height="300px">
+ <br>
 
 * Node 1 은 x<sub>1</sub> 과 x<sub>2</sub> 특성에서만 영향을 받는다고 하기보다는 어떤 신경망을 만들고 싶던지, 어떤 계산을 하고 싶던지 4개의 입력을 다 받을 것이다. <br>
 * 신경망의 입력층과 이 중앙에 있는 Hidden Unit층은 긴밀하게 연결되어 있다. (__* 모든 입력 특성들은 중앙에 있는 Node 모두에 연결되어 있기 때문이다.__)
@@ -51,14 +52,14 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 ## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다.
 ### [그림 6] 참고.
 
-![three_common_nn](./imgs/deeplearning/fundamental/1-6.png)
+![three_common_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-6.PNG?raw=true)
 
 <br>
 
 # <Why is Deep Learning Taking off?>
 ## Scale drives deep learning progress
 
-![progress](./imgs/deeplearning/fundamental/1-7.png)
+![progress](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-7.PNG?raw=true)
 
 1. Traditional learning algorithm
   * 데이터를 추가하는 동안 성능이 향상되지만 어느정도 지나면 성능이 정체기에이른다. (__* 방대한 data로 뭘 해야하는지 모르는 것처럼 보인다.__)
