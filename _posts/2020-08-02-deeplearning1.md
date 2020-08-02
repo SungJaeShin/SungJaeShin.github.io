@@ -28,7 +28,7 @@ date: 2020-08-02 16:14:53
 !
 
 사실 집값을 예측하는데에 있어 여러 가지 특징(features)들이 존재한다. <br>
-* Input X : size -> size, number of bedrooms, zip code(posted code), wealth <br>
+* Input X &nbsp; : size -> size, number of bedrooms, zip code(posted code), wealth <br>
 * Output y : price <br>
 
 !
@@ -40,7 +40,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 ## In General 및 정리
 !
 
-* Node 1 은 x~1~ 과 x~2~ 특성에서만 영향을 받는다고 하기보다는 어떤 신경망을 만들고 싶던지, 어떤 계산을 하고 싶던지 4개의 입력을 다 받을 것이다. <br>
+* Node 1 은 x<sub>1</sub> 과 x<sub>2</sub> 특성에서만 영향을 받는다고 하기보다는 어떤 신경망을 만들고 싶던지, 어떤 계산을 하고 싶던지 4개의 입력을 다 받을 것이다. <br>
 * 신경망의 입력층과 이 중앙에 있는 Hidden Unit층은 긴밀하게 연결되어 있다. (__* 모든 입력 특성들은 중앙에 있는 Node 모두에 연결되어 있기 때문이다.__)
 * 충분한 양의 X와 y를 Traning Data로 준다면 신경망은 X를 y로 연결하는 함수를 알아내는데 정말로 뛰어날 것이다.
 
