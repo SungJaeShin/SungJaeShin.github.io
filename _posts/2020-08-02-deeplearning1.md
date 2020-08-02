@@ -18,7 +18,7 @@ date: 2020-08-02 16:14:53
 
 [그림 1]을 우리는 간단한 Neural Network로 만들 수 있다. [그림 2]와 같이 Single Neural Network로 표현될 수 있다.
 
-![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/tree/master/imgs/deeplearning/fundamental/1-2.PNG)
+![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/imgs/deeplearning/fundamental/1-2.PNG)
 
 여기서 Node를 __"Neuron"__ 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
 
