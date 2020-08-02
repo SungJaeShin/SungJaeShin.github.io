@@ -45,12 +45,14 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 * 충분한 양의 X와 y를 Traning Data로 준다면 신경망은 X를 y로 연결하는 함수를 알아내는데 정말로 뛰어날 것이다.
 
 
+<br>
 # <Supervised Learning with a Neural Network>
-## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다. [그림 5] 참고.
+## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다.
+### [그림 5] 참고.
 
 !
 
-
+<br>
 # <Why is Deep Learning Taking off>
 ## Scale drives deep learning progress
 
