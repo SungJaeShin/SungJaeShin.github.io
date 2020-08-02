@@ -25,7 +25,7 @@ date: 2020-08-02 16:14:53
 
 * 참고 : Function들 중에서 다음과 같은 __"ReLU(=Rectified Linear Unit)"__ 함수를 많이 볼 수 있다. 여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
 
-![ReLU](./imgs/deeplearning/fundamental/1-3.png)
+![ReLU](./imgs/deeplearning/fundamental/1-3.png?raw=true)
 
 사실 집값을 예측하는데에 있어 여러 가지 특징(features)들이 존재한다. <br>
 * Input X &nbsp; : size -> size, number of bedrooms, zip code(posted code), wealth <br>
