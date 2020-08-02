@@ -18,7 +18,7 @@ date: 2020-08-02 16:14:53
 
 [그림 1]을 우리는 간단한 Neural Network로 만들 수 있다. [그림 2]와 같이 Single Neural Network로 표현될 수 있다.
 
-![single_nn](./imgs/deeplearning/fundamental/1-2.PNG)
+![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/tree/master/imgs/deeplearning/fundamental/1-2.PNG)
 
 여기서 Node를 __"Neuron"__ 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
 
@@ -31,7 +31,7 @@ date: 2020-08-02 16:14:53
 * Input X &nbsp; : size -> size, number of bedrooms, zip code(posted code), wealth <br>
 * Output y : price <br>
 
-![ex_house_extension](./imgs/deeplearning/fundamental/1-4.png)
+![ex_house_extension](./imgs/deeplearning/fundamental/1-4.png) <br>
 
 [그림 4]에서 (Area 2)에 있는 Node들을 <u>"Hidden Unit"</u> 이라고 부르고 이들은 ReLU가 될 수 있고 아니면 다른 비선형 함수가 될 수도 있다. <br>
 family size, walkability, school quality와 같은 feature들은 Traning Set인 Input X & Output y의 많은 Sample들을 주고 스스로 알아내게 된다. (Prediction!!) <br>
