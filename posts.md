@@ -2,7 +2,9 @@
 ---
 # Table of Contents
 
-## [First Demo Post](#/posts/2010-07-10-first-demo-post.md)
+## [Fundamental Deep Learning]
+
+### [Chapter 1 : Introduction of Neural Network and Deep Learning](/_posts/2020-08-02-deeplearning1.md)
 
 
-{% include posts/index.html %}
+<!-- {% include posts/index.html %} -->
