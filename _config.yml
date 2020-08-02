@@ -13,7 +13,7 @@ paginate: 10
 paginate_path: "/blog/page:num/"
 
 title: SungJae Shin
-subtitle: For My best future  
+subtitle: For My best future
 
 #left_side:
 #  background_image: "./assets/images/left-background.jpg"
@@ -34,8 +34,8 @@ menu:
     link: /
     icon: ""
 
-  - text: Deep Learning 
-    link: /
+  - text: Deep Learning
+    link: /code-of-conduct
     icon: ""
 
   - text: Experiments
@@ -55,6 +55,3 @@ social_icons:
   - name: github
     link: https://github.com/SungJaeShin
     icon: fab fa-github-square
-
-
-    

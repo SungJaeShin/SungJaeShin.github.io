@@ -1,6 +1,8 @@
 ---
 ---
+# Table of Contents
 
-# BLOG POSTS
+<!-- [First Demo Post](#_posts/first-demo-post.md) -->
 
-{% include posts/index.html %}
+
+<!-- {% include posts/index.html %} -->

@@ -9,9 +9,12 @@
 
 <br>
 ### [Research Interest]
-
+  - SLAM (Simultaneous Localization and Mapping)
+  - Computer Vision
+  - Deep Learning
 
 <br>
+
 ### [Education]
 * **MS** 　　　　　　　 **Korea Advanced Institute of Science and Technology**　　　　2020.03 ~ Current　<br>
 　　　　　　　　　Daejeon, Korea, School of Electrical Engineering <br>
@@ -46,7 +49,19 @@
 <br>
 
 ### [Motto]
+  * Without conscious and deliberate effort, inertial always win
+  * Do best in everything
+  * Every result has a cause
+  * Always think of the worst case
 
+<br>
+
+### [Language]
+  * C++, Matlab
+
+<br>
+
+### [Publication]
 
 
 <br>
