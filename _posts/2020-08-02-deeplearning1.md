@@ -20,10 +20,10 @@ date: 2020-08-02 16:14:53
 
 ![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-2.PNG?raw=true){:center}
 
-여기서 Node를 __<u>"Neuron"</u>__ 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
+여기서 Node를 <u>__"Neuron"__</u> 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
 
 
-* 참고 : Function들 중에서 다음과 같은 __<u>"ReLU(=Rectified Linear Unit)"</u>__ 함수를 많이 볼 수 있다. 여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
+* 참고 : Function들 중에서 다음과 같은 <u>__"ReLU(=Rectified Linear Unit)"__</u> 함수를 많이 볼 수 있다. 여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
 
 ![ReLU](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-3.PNG?raw=true){:center}
 
