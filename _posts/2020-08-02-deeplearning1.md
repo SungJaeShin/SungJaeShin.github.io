@@ -47,7 +47,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 
 <br>
 
-# <Supervised Learning with a Neural Network>
+# Supervised Learning with a Neural Network
 ## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다.
 ### [그림 5] 참고.
 
@@ -55,7 +55,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 
 <br>
 
-# <Why is Deep Learning Taking off>
+# Why is Deep Learning Taking off
 ## Scale drives deep learning progress
 
 !
