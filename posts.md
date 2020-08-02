@@ -2,7 +2,7 @@
 ---
 # Table of Contents
 
-## [First Demo Post](#../_posts/2010-07-10-first-demo-post.md)
+## [First Demo Post](#/posts/2010-07-10-first-demo-post.md)
 
 
 {% include posts/index.html %}
