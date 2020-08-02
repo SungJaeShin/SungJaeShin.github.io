@@ -25,7 +25,7 @@ date: 2020-08-02 16:14:53
 
 
 * 참고 : Function들 중에서 다음과 같은 **<u>"ReLU(=Rectified Linear Unit)"</u>** 함수를 많이 볼 수 있다.
-  　　　여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
+      여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
 
 <center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-3.PNG?raw=true" width="30%" height="30%"></center>
 
@@ -51,8 +51,7 @@ family size, walkability, school quality와 같은 feature들은 Traning Set인 
 
 # < Supervised Learning with a Neural Network >
 ## 일반적으로 Neural Network에서 일반적으로 사용되는 3가지 예제가 있다.
-### [그림 6] 참고.
-<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-6.PNG?raw=true" width="80%" height="60%"></center>
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-6.PNG?raw=true" width="90%" height="50%"></center>
 
 <br>
 
