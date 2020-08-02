@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Deep Learning) Chapter 1 : Introduction of Neural Network and Deep Learning 
+title: (Deep Learning) Chapter 1 - Introduction of Neural Network and Deep Learning 
 date: 2020-08-02 16:14:53
 ---
 
