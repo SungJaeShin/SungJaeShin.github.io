@@ -18,14 +18,14 @@ date: 2020-08-02 16:14:53
 
 [그림 1]을 우리는 간단한 Neural Network로 만들 수 있다. [그림 2]와 같이 Single Neural Network로 표현될 수 있다.
 
-<center>![single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-2.PNG?raw=true)</center>
+!<center>[single_nn](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-2.PNG?raw=true)</center>
 
 여기서 Node를 __<u>"Neuron"</u>__ 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
 
 
-* 참고 : Function들 중에서 다음과 같은 __"ReLU(=Rectified Linear Unit)"__ 함수를 많이 볼 수 있다. 여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
+* 참고 : Function들 중에서 다음과 같은 __<u>"ReLU(=Rectified Linear Unit)"</u>__ 함수를 많이 볼 수 있다. 여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
 
-<center>![ReLU](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-3.PNG?raw=true)</center>
+!<center>[ReLU](https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-3.PNG?raw=true)</center>
 
 사실 집값을 예측하는데에 있어 여러 가지 특징(features)들이 존재한다. <br>
 * Input X &nbsp; : size -> size, number of bedrooms, zip code(posted code), wealth <br>
@@ -33,7 +33,7 @@ date: 2020-08-02 16:14:53
 
 <center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-4.PNG?raw=true" width="70%" height="70%"></center> <br>
 
-[그림 4]에서 (Area 2)에 있는 Node들을 <u>"Hidden Unit"</u> 이라고 부르고 이들은 ReLU가 될 수 있고 아니면 다른 비선형 함수가 될 수도 있다. <br>
+[그림 4]에서 (Area 2)에 있는 Node들을 __<u>"Hidden Unit"</u>__ 이라고 부르고 이들은 ReLU가 될 수 있고 아니면 다른 비선형 함수가 될 수도 있다. <br>
 family size, walkability, school quality와 같은 feature들은 Traning Set인 Input X & Output y의 많은 Sample들을 주고 스스로 알아내게 된다. (Prediction!!) <br>
 그 결과 최종 집의 가격을 예측하는 결과 y가 나오게 된다.
 
