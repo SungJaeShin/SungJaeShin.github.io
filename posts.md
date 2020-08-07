@@ -8,7 +8,7 @@
 
 * [Chapter 1 : Introduction of Neural Network and Deep Learning](/_posts/2020-08-02-deeplearning1.md) <br>
 
-* [Chapter 2 : Binary Classification](/_posts/2020-08-02-deeplearning2.md) <br>
+* [Chapter 2 : Binary Classification](/_posts/2020-08-08-deeplearning2.md) <br>
 
 * [Chapter 3 : Logistic Regression](/_posts/2020-08-02-deeplearning3.md) <br>
 
