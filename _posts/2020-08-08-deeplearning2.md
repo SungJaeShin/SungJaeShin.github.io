@@ -1,31 +1,40 @@
 ---
 layout: post
-title: Chapter 1 - Introduction of Neural Network and Deep Learning
-date: 2020-08-02 16:14:53
+title: Chapter 2 - Binary Classification
+date: 2020-08-08 00:33:45
 ---
 
-# < What is Neural Network? >
-## (Example) House Price Prediction  
-### * Assumption : 집값을 예측할 수 있는 6개의 데이터가 존재한다고 가정, <x, y> = <size, price>
+# < Binary Classification >
+## <u>Logistic Regression</u> is an algorithm for binary classification
+### (Example) Binary Classification Problem
+
+* Assume : 이미지를 넣었을 때, 이 이미지가 고양이인지, 아닌지 판별하는 문제가 있다. <br>
+* y = 1 : 이 이미지를 고양이로 판별을 했을 경우 <br>
+* y = 0 : 이 이미지를 고양이가 아니라고 판별했을 경우 <br>
+
+다음 [그림 1]과 같이 나타낼 문제를 정의할 수 있다.
 
 <br>
-<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-1.PNG?raw=true"></center>
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-1.PNG?raw=true"></center>
+
+[그림 1]의 Input으로 넣었던 Cat Image에 대해서 Red, Green, Blue 채널들과 일치하는 3개의 행렬을 [그림 2]와 같이 따로 저장한다. 행렬에 쓰여진 값들을 **<u>"Pixel Intensity Value"</u>** 라고 부른다. <br>
+
+* (참고) 만일, Input Image가 64 pixel X 64 pixel이라면, 3개의 64x64 행렬들이 사진의 Red, Green, Blue Pixel Intensity Value를 나타낸다!! <br>
+
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-2.PNG?raw=true"></center>
 
 
-[그림 1]은 집의 크기에 따른 가격을 그래프로 나타낸 그림이다. x축은 집의 크기를 나타내고, y축은 가격을 의미한다. <br>
-여기서 6개의 point들을 가장 나타내는 직선은 그림과 같이 나타낼 수 있다고 가정하였을 때,  
-(Area 1)처럼 0으로 만든 부분이 존재하는데 이 경우는 주택의 가격은 음수가 될 수 없기 때문에 나머지를 0으로 만듦으로서 더 좋은 함수를 표현할 수 있기 때문이다. <br>
-[그림 1]을 우리는 간단한 Neural Network로 만들 수 있다. 이는 [그림 2]와 같이 Single Neural Network로 표현될 수 있다.
+[그림 2]와 같은 pixel intensity value들을 특성 벡터로 바꾸려면, 모든 pixel 값을 입력될 __특성 벡터 X인 하나의 열__ 로 나타낼 것이다. 이는 [그림 3]과 같이 표현이 되고 위에서부터 차례대로 64 x 64 (=4096)개는 Red에 해당하는 intensity value이고 밑에는 Green, Blue 순서대로 표현된다. <br>
 
-<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-2.PNG?raw=true"></center>
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-3.PNG?raw=true" width="30%" height="30%"></center>
 
-여기서 Node를 **<u>"Neuron"</u>** 이라고 부르고, Neuron의 역할은 __주택의 크기를 입력으로 받아서 선형함수를 계산하고 결과 값과 0 중에서 큰 값을 주택의 가격으로 예측한다.__ <br>
+* (참고) 만일, 64 x 64 Image인 경우, Vector X의 total dimension은 __"64 X 64 X 3 = 12288 차원"__ 이 된다. <br>
+* (참고) 이 경우, Input Feature Vector X의 Dimension은 다음과 같이 표현한다!! : &#42; __n = n<sub>x</sub> = 12288__ <br>
 
-
+<!--
 * 참고 : Function들 중에서 다음과 같은 **<u>"ReLU(=Rectified Linear Unit)"</u>** 함수를 많이 볼 수 있다. <br>
   　　&nbsp; 여기서 __Rectified라는 의미는 0과 결과 값 중에서 큰 값을 취라하는 의미로 사용되었다.__ [그림 3]이 ReLU Function이다.
 
-<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/1-3.PNG?raw=true" width="30%" height="30%"></center>
 
 사실 집값을 예측하는데에 있어 여러 가지 특징(features)들이 존재한다. <br>
 * Input X &nbsp; : size &nbsp; -> &nbsp; size, number of bedrooms, zip code(posted code), wealth <br>
@@ -70,6 +79,4 @@ family size, walkability, school quality와 같은 feature들은 Training Set인
   * 큰 신경망이 다른 방법을 압도하는 경향을 보이고 있다.
 5. Transformation of algorithm can improve computation
   * (예를 들면) Sigmoid Function -> ReLU Function 으로 바꾸면 Computation을 향상시킬 수 있다. (__* Gradient Descent를 사용하는 것이 더 삐를 것이다.__)
-
-
-<br>
+ -->
