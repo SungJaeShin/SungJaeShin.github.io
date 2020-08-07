@@ -30,8 +30,14 @@ date: 2020-08-08 00:33:45
 
 * (참고) 만일, 64 x 64 Image인 경우, Vector X의 total dimension은 __"64 X 64 X 3 = 12288 차원"__ 이 된다. 이 경우, Input Feature Vector X의 Dimension은 다음과 같이 표현한다!! : &#42; __n = n<sub>x</sub> = 12288__ <br>
 
-### The Goal of Binary Classification
-- 입력된 사진을 나타내는 특성벡터 X를 가지고 이것에 대한 Label Y가 1 & 0 (= 고양이 사진인지(y=1) 아닌지(y=0)) 예측할 수 있는 분류기를 학습하는 것이다. 
+
+
+## The Goal of Binary Classification
+- 입력된 사진을 나타내는 __특성벡터 X__ 를 가지고 이것에 대한 __Label Y__ 가 1 & 0 (= 고양이 사진인지(y=1) 아닌지(y=0)) 예측할 수 있는 __분류기를 학습__ 하는 것이다. <br>
+
+
+## General Notation of Binary Classification
+* 단 하나의 Training Sample을 한 쌍의 (X, y)로 표시할 때, &#03F5;
 
 <!--
 * 참고 : Function들 중에서 다음과 같은 **<u>"ReLU(=Rectified Linear Unit)"</u>** 함수를 많이 볼 수 있다. <br>
