@@ -29,7 +29,7 @@ date: 2020-08-08 00:33:45
 <center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-3.PNG?raw=true" width="30%" height="30%"></center>
 
 * (참고) 만일, 64 x 64 Image인 경우, Vector X의 total dimension은 __"64 X 64 X 3 = 12288 차원"__ 이 된다. <br>
-     이 경우, Input Feature Vector X의 Dimension은 다음과 같이 표현한다!! : &#8594; &#8756; __n = n<sub>x</sub> = 12288__ <br>
+     이 경우, Input Feature Vector X의 Dimension은 다음과 같이 표현한다!! &#8594; &#8756; __n = n<sub>x</sub> = 12288__ <br>
 
 
 <br>
@@ -39,7 +39,7 @@ date: 2020-08-08 00:33:45
 
 <br>
 ## General Notation of Binary Classification
-* 단 하나의 Training Sample을 한 쌍의 (X, y)로 표시할 때, &#8712;
+* 단 하나의 Training Sample을 한 쌍의 (X, y)로 표시할 때, X &#8712; R<sup>n<sub>x</sub></sup>, y &#8712; {0, 1}이다.
 
 <!--
 * 참고 : Function들 중에서 다음과 같은 **<u>"ReLU(=Rectified Linear Unit)"</u>** 함수를 많이 볼 수 있다. <br>
