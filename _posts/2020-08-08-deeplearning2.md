@@ -29,7 +29,7 @@ date: 2020-08-08 00:33:45
 <center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-3.PNG?raw=true" width="30%" height="30%"></center>
 
 * (참고) 만일, 64 x 64 Image인 경우, Vector X의 total dimension은 __"64 X 64 X 3 = 12288 차원"__ 이 된다. <br>
-     이 경우, Input Feature Vector X의 Dimension은 다음과 같이 표현한다!! : &#42; __n = n<sub>x</sub> = 12288__ <br>
+     이 경우, Input Feature Vector X의 Dimension은 다음과 같이 표현한다!! : &#8594; &#8756; __n = n<sub>x</sub> = 12288__ <br>
 
 
 <br>
