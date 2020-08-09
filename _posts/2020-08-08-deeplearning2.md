@@ -47,4 +47,4 @@ date: 2020-08-08 00:33:45
 
 * 결과 값의 행렬 y는 Row Matrix로 놓은 것이 편하다. 이는 [그림 5]와 같이 나타낼 수 있다.
 
-<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-5.PNG?raw=true" width="70%" height="70%"></center> <br>
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-5.PNG?raw=true" width="50%" height="50%"></center> <br>
