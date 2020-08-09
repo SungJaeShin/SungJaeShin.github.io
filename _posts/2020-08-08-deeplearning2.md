@@ -43,7 +43,7 @@ date: 2020-08-08 00:33:45
 * Training Set는 m개의 훈련 샘플을 포함할 때, {(x<sup>(1)</sup>, y<sup>(1)</sup>), (x<sup>(2)</sup>, y<sup>(2)</sup>), &#8230; ,(x<sup>(m)</sup>, y<sup>(m)</sup>)}으로 표현된 것이 m개의 Train Sample이다. <br>
 * 입력된 Training Set들을 열들로된 (&#8658; m개의 훈련 샘플이 있을 때) 행렬 X는 [그림 4]와 같다.
 
-<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-4.PNG?raw=true" width="70%" height="70%"></center> <br>
+<center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/deeplearning/fundamental/2-4.PNG?raw=true" width="50%" height="50%"></center> <br>
 
 * 결과 값의 행렬 y는 Row Matrix로 놓은 것이 편하다. 이는 [그림 5]와 같이 나타낼 수 있다.
 
