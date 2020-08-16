@@ -31,7 +31,7 @@ menu:
     icon: ""
 
   - text: SLAM
-    link: /
+    link: /slam
     icon: ""
 
   - text: Deep Learning
