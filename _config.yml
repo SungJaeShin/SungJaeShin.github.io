@@ -39,7 +39,7 @@ menu:
     icon: ""
 
   - text: Experiments
-    link: /
+    link: /experiment
     icon: ""
 
   - text: Paper Survey
