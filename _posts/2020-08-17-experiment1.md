@@ -5,7 +5,7 @@ date: 2020-08-02 16:14:53
 ---
 
 ## pose의 정보가 담겨있는 .csv file을 이용하여 rviz상으로 움직임 파악하기
-### csv file
+## csv file
 [example]
 - 498.00488,-436.80432,-4.7894874,0.55949587,-0.46982133,0.4388751,-0.52308786 <br>
 - 차례대로 다음과 같은 값들을 의미한다.
@@ -19,7 +19,7 @@ date: 2020-08-02 16:14:53
 
 
 <br>
-### Node & Topic explanation <br>
+## Node & Topic explanation <br>
 [Node]
 - "pose_movement" Node
 
@@ -37,7 +37,7 @@ date: 2020-08-02 16:14:53
 
 
 <br>
-### Parameter explanation
+## Parameter explanation
 - std::ifstream file &#8658; 나의 Computer에 있는 CSV file을 받을 변수 <br>
 - std::vector<double> result &#8658; CSV file을 comma(,) 제거 후 double type을 가진 std::vector로 넣어주기 위한 변수 <br>
 - int index &#8658; 1set에 7개의 value들이 있기 때문에 구분하기 위해 설정 <br>
@@ -49,7 +49,7 @@ date: 2020-08-02 16:14:53
 
 
 <br>
-### overall code explanation
+## overall code explanation
 - function 1 &#8658; std::vector<double> parseCSV(std::istream &file)
   * CSV file을 받아서 각 방들이 double type을 가지는 std::vector로 넣어준다.
   * 이 경우, comma(,)의 값을 빼고 Value들이 들어가도록 설정되어 있다.
@@ -62,7 +62,7 @@ date: 2020-08-02 16:14:53
 
 
 <br>
-### Result
+## Result
 - rviz에서 pose와 tracking topic을 같이 출력해서 확인한 경우
 
 <center><img src="https://github.com/SungJaeShin/SungJaeShin.github.io/blob/master/imgs/experiment/experiment1-1.PNG?raw=true" width="50%" height="50%"></center>
