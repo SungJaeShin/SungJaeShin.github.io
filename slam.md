@@ -19,7 +19,7 @@
 <br>
 
 ## [Coursera : Robotics Perception]
-### [Reference Site](https://www.coursera.org/learn/robotics-perception)University of Pennsylvania 에서 강의하였고 Visual SLAM을 위해서 기초적으로 들었던 수업입니다.
+### ([Reference Site](https://www.coursera.org/learn/robotics-perception))University of Pennsylvania 에서 강의하였고 Visual SLAM을 위해서 기초적으로 들었던 수업입니다.
 
 
 * [__Week 1 : Geometry of Image Formation__] <br>
